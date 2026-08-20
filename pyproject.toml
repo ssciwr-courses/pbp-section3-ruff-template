@@ -1,0 +1,21 @@
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = [
+    "B",   # flake8-bugbear
+    "E",   # pycodestyle errors
+    "F",   # Pyflakes
+    "I",   # import sorting
+    "SIM", # flake8-simplify
+    "UP",  # pyupgrade
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["sensor_report"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["."]
+testpaths = ["tests"]

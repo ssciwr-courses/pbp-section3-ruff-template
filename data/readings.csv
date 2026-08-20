@@ -1,0 +1,5 @@
+timestamp,sensor,temperature_c
+2026-04-14T09:00:00,incubator-a,21.8
+2026-04-14T09:15:00,incubator-b,22.4
+2026-04-14T09:30:00,incubator-a,22.1
+2026-04-14T09:45:00,incubator-b,22.7
